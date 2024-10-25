@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body class="layout1" style="background-image: url('/images/headers/header_about_us.jpg')">
+    <div id="container" style="padding-top: 303px">
+  
+      <div id="content">
+	{{ .Content }}
+      </div>
+  
+      <br class="cb"/>
+  
+  {{- partial "header.html" . -}}
+    </div>
+  {{- partial "footer.html" . -}}
+  </body>
+</html>

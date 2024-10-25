@@ -1,0 +1,30 @@
+baseURL: 'https://www.rocketgate.com/'
+languageCode: 'en-us'
+title: 'RocketGate®'
+
+# Allow HTML in MarkDown files
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Params:
+
+  testimonials:
+  - author: Brad Mitchell, CEO MojoHost
+    content: |-
+      I have been using Rocketgate as MojoHost's merchant gateway since 2007 and been tremendously happy. They are fully integrated with a large number of banks.  RocketGate also has incredible merchant customer service that I have experienced first hand.  Rocketgate functions as the gateway processor for many large companies in a variety of business sectors from tangible goods, live entertainment, VOD, membership sites and now, with MojoHost, web hosting.
+
+      They have been extremely accommodating and have written custom enhancements to their interface to accomodate our unique needs as we have grown over time.   We've been so pleased with the high level of service and interaction that when we made a recent bank change, I insisted to our new bank that we would not transition to them unless they worked with RocketGate.  As it turned out all parties were compatible already. Thank you very much and I look forward to many more years of great business between our companies.
+
+  - author: Marc Saulino, Billing Revolution
+    content: |-
+      I feel that the term “Life Saver” is cliché and often overused but feel this is the best way for me to describe Jason Burns and RocketGate.  I have had an opportunity to work with RocketGate on multiple mobile projects that required responsiveness, creative thinking, persistence, project management and some technical integration. Needless to say, RocketGate met all challenges and more.  Overall, RocketGate's team has a firm understanding of mobile marketing trends and Interactive technology. If anyone has a need to monetize commerce through the Web or Mobile, I strongly recommend RocketGate.
+
+  - author: Ray Anderson, Bango
+    content: |-
+      RocketGate came to us offering a solution to a problem with credit card processing which we were experiencing with two other suppliers.  At first we were sceptical of RocketGate’s ability to do more than the two big providers we worked with. RocketGate rapidly proved its mettle by identifying the problems we were encountering and overcoming them quickly, one by one.  By dedication and round the clock working, RocketGate built up a great working relationship with our team.
+
+  - author: Ken Musante, President, Humboldt Merchant Services
+    content: |-
+      Jason Burns of RocketGate is an honest and ethical business partner. He is an industry resource and I rely on his guidance. RocketGate’s services are fairly priced and they deliver on commitments.

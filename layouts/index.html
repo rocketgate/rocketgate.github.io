@@ -1,0 +1,85 @@
+{{ define "main" }}
+<body class="layout2" style="background-image: url('images/headers/header_home.jpg')">
+  <div id="container" style="padding-top: 200px">
+
+    <h1>Ways to process with RocketGate</h1>
+    <ul id="home_slideshow">
+      <li><a href="payment-processing-services/shopping-carts"><img src="images/slideshow/home-slide05.jpg" width="440" height="280" alt=""/></a></li>
+      <li><a href="payment-processing-services/vpos-virtual-point-of-sale"><img src="images/slideshow/home-slide04.jpg" width="440" height="280" alt=""/></a></li>
+      <li><a href="payment-processing-services/hosted-page"><img src="images/slideshow/home-slide03.jpg" width="440" height="280" alt=""/></a></li>
+      <li><a href="payment-processing-services/hosted-form"><img src="images/slideshow/home-slide02.jpg" width="440" height="280" alt=""/></a></li>
+      <li><a href="payment-processing-services/gateway"><img src="images/slideshow/home-slide01.jpg" width="440" height="280" alt=""/></a></li>
+    </ul>
+    
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.accordionza.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      
+        $('#home_slideshow').accordionza({
+          slideSpeed: 500,
+          slideTrigger: 'mouseover',
+          slideWidthClosed: 125,
+          slideEasing: 'easeOutExpo'
+        });
+      
+      });
+    </script>
+    
+    <div class="home_box home_box_first">
+      <h2>Advanced Processing</h2>
+      <p>Sophisticated features include routing, load balancing, and cascading to multiple merchant accounts and PCI compliant tokenized transaction processing.</p>
+      <a href="features/advanced-processing" style="background-image: url('images/home_icon_advanced_processing.png')">Advanced Processing</a>
+    </div>
+    
+    <div class="home_box">
+      <h2>Advanced Reporting</h2>
+      <p>Make well informed business decisions by utilizing a myriad of reports that answer many of the important questions about your business: sales, approval ratios, decline reasons cross-referenced by affiliates, countries, sites, products, prices, accounts and many more.</p>
+      <a href="features/advanced-reporting" style="background-image:url('images/home_icon_advanced_reporting.png')">Advanced Reporting</a>
+    </div>
+    
+    <div class="home_box home_box_first">
+      <h2>Multiple Currencies</h2>
+      <p>With 60 currencies currently offered, broaden your target market, increase sales and reduce chargebacks by billing in your customers' currency of choice - including real-time currency conversion and non-converted foreign currency transaction processing functionality.</p>
+      <a href="features/multiple-currencies" style="background-image:url('images/home_icon_multiple_currencies.png')"></a>
+    </div>
+    
+    <div class="home_box">
+      <h2>Merchant Support Tools</h2>
+      <p>Merchants can manage customers themselves including tools for updating membership information and customer refunds.</p>
+      <a href="features/merchant-support-tools" style="background-image:url('images/home_icon_merchant_support_tools.png')"></a>
+    </div>
+    
+    <div class="home_box home_box_first">
+      <h2>Recurring Billing</h2>
+      <p>Maximize profits by utilizing easy to use, flexible, and highly configurable recurring billing options and actively grow a steady revenue stream.</p>
+      <a href="features/recurring-billing" style="background-image:url('images/home_icon_recurring_billing.png')"></a>
+    </div>
+    
+    <div class="home_box">
+      <h2>Automated Chargeback Processing</h2>
+      <p>Lower chargebacks by utilizing RocketGate's automated daily data feeds of retrieval, reversal and chargeback information, blocking future transaction attempts, and providing tools to cross-reference against other potential risky transactions.</p>
+      <a href="features/automated-chargeback-processing" style="background-image:url('images/home_icon_automated_chargeback_processing.png')"></a>
+    </div>
+    
+    <div class="home_box home_box_first">
+      <h2>Risk Management</h2>
+      <p>Proprietary and sophisticated risk prevention algorithms precisely and effectively lower merchants' chargeback ratios while simultaneously increasing their revenues.</p>
+      <a href="features/risk-management" style="background-image:url('images/home_icon_risk_management.png')"></a>
+    </div>
+    
+    <div class="home_box">
+      <h2>PCI Compliant</h2>
+      <p>Merchants can reduce their exposure to risk by avoiding the storage and handling of sensitive payment information and reduce or eliminate the scope of PCI Compliance by processing with RocketGate.</p>
+      <a href="features/pci-compliant" style="background-image:url('images/home_icon_pci_compliant.png')"></a>
+    </div>
+
+    <br class="cb">
+
+{{/* Page breaks unless header is defined AFTER content. Don't ask me why */}}
+{{- partial "header.html" . -}}
+  </div>
+{{- partial "footer.html" . -}}
+</body>
+  
+{{- end -}}

@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{ if eq .Page.CurrentSection.Title "Payment-Processing-Services" }}
+<body class="layout1" style="background-image: url('{{ .Site.BaseURL }}/images/headers/header_payment_processing_services.jpg')">
+{{ else }}
+<body class="layout1" style="background-image: url('{{ .Site.BaseURL }}/images/headers/header_features.jpg')">
+{{ end }}
+  <div id="container" style="padding-top: 393px">
+
+    <div id="content">
+      {{ .Content }}
+    </div>
+
+    <div id="right_content">
+      <div id="ctas">
+        <div class="cta cta_first">
+          <div class="cta_box2">
+            <h3>{{ .Params.right_content1.title }}</h3>
+            <p style="line-height: 150%;">{{ .Params.right_content1.content | safeHTML }}</p>
+          </div>
+          <p>&nbsp;</p>
+        </div>
+
+{{ if (isset .Params "right_content2") }}
+        <div class="cta">
+          <div class="cta_box2">
+            <h3>{{ .Params.right_content2.title }}</h3>
+            <p style="line-height: 150%;">{{ .Params.right_content2.content | safeHTML }}</p>
+          </div>
+          <p>&nbsp;</p>
+        </div>
+{{ end }}
+
+        <div class="cta">
+          <div class="cta_nobox">
+            <p style="letter-spacing: 1px;">{{ .Params.tagline }}</p>
+          </div>
+          <p>&nbsp;</p>
+        </div>
+
+      </div>
+    </div>
+
+    <br class="cb"/>
+
+{{- partial "header.html" . -}}
+  </div>
+{{- partial "footer.html" . -}}
+</body>
+{{ end }}
+

@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <h1>Testimonials</h1>
+  {{ .Site.Params }}
+  {{ range .Site.Params.testimonials }}
+    <p>&ldquo;{{ .content }}&rdquo;</p>
+    <h3>&mdash; {{ .author }}</h3>
+  {{ end }}
+{{ end }}
+
