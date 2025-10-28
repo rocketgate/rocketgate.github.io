@@ -16,7 +16,7 @@ params:
 # Hosted Form
 Hosted Form is engineered for those who want maximum branding control and flexibility.  In the Hosted Form solution, you host the purchase page and include an iFrame from RocketGate where the credit card data is entered by the customer and then is transmitted directly to RocketGate.  This gives customers a seamless purchase experience from beginning to end.
 
-[Compare the Hosted Page vs Hosted Form](/interactive-diagram/index.php)
+[Compare the Hosted Page vs Hosted Form](/interactive-diagram)
 
 [See the lifecycle of a Hosted Form Transaction.](/images/files/hosted-form.png)
 
