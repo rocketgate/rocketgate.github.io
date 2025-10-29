@@ -16,7 +16,7 @@ params:
 # Hosted Page
 Engineered for merchants who want the easiest integration or who do not want to host an SSL (secure sockets layer) site. In the Hosted Page solution, you link to a purchase page (hosted by RocketGate) where RocketGate securely collects credit card data on your behalf so you don’t have to store, transmit or process the credit card data. You control the look and feel of this page via the use of CSS (Cascading Style Sheets).
 
-[Compare the Hosted Page vs Hosted Form](/interactive-diagram/index.php)
+[Compare the Hosted Page vs Hosted Form](/interactive-diagram)
 
 [See the lifecycle of a Hosted Page Transaction.](/images/files/hosted-page.png)
 
